@@ -4,7 +4,7 @@ from joblib import load
 import os
 
 #Cargar el modelo
-dt=load('dt1.joblib')
+dt=load('dt_1.joblib')
 
 #Generar el servidor(Back-End)
 servidorWeb=Flask(__name__)
